@@ -1,1 +1,79 @@
+PS C:\Users\asuka> cd C:\Users\asuka\OneDrive\デスクトップ\kadai
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai> mkdir git_challenge
 
+
+    ディレクトリ: C:\Users\asuka\On
+    eDrive\デスクトップ\kadai
+
+
+Mode                 LastWriteTime
+----                 -------------
+d-----        2024/11/26      0:03
+
+
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai> cd git_challenge
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git init 
+Initialized empty Git repository in C:/Users/asuka/OneDrive/デスクトップ/kadai/git_challenge/.git/
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git add hello_wold.txt
+fatal: pathspec 'hello_wold.txt' did not match any files
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git hello_world.txt
+git: 'hello_world.txt' is not a git command. See 'git --help'.
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) 0d2e935] 最初の
+コミット
+ 1 file changed, 1 insertion(+)     
+ create mode 100644 hello_world.txt 
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git commit -m "２回目のコミット"
+[main e89daae] ２回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git status
+
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git commit -m "２回目のコミット"              
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\asuka\OneDrive\デスクト ップ\kadai\git_challenge> git add "C:\Users\asuka\OneDrive\デスクトップ\kadai\git_challenge\hello_world.txt"
+
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git commit -m "２回目のコミット"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git commit -m "最初のコミット"
+[main 6e4f5df] 最初のコミット
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\asuka\OneDrive\デスクト ップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git commit -m "２回目のコミット"
+[main 803da26] ２回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git status
+
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\asuka\OneDrive\デスクト
+ップ\kadai\git_challenge> git log --oneline
+803da26 (HEAD -> main) ２回目のコミ
+ット
+6e4f5df 最初のコミット
+e89daae ２回目のコミット
+0d2e935 最初のコミット
